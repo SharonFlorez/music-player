@@ -1,0 +1,20 @@
+<div class="flex flex-col h-full border-r-4 relative">
+  <section class="flex flex-col items-center justify-between bg-[#121212] rounded-md mr-2 mb-1 basis-1/5 px-2 py-4"
+    routerLink="/">
+    <span class="material-icons-outlined cursor-pointer text-darkGray text-4xl hover:text-white">
+      home
+    </span>
+    <span class="material-icons-outlined cursor-pointer text-darkGray text-3xl hover:text-white"
+      pTooltip="Cerrar sesión" tooltipPosition="left" (click)="logout()">
+      logout
+    </span>
+  </section>
+
+  <section class="flex flex-col items-center gap-4 bg-[#121212] rounded-md mr-2 mt-1 basis-4/5 p-2">
+    <span class="material-icons-outlined text-darkGray text-4xl cursor-pointer" pTooltip="Crear Playlist"
+      tooltipPosition="left">
+      add
+    </span>
+    <app-playlist-card></app-playlist-card>
+  </section>
+</div>

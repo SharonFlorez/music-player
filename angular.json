@@ -30,7 +30,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -99,6 +101,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "music-player:build:production",
+              "serveTarget": "music-player:serve:production"
+            },
+            "development": {
+              "buildTarget": "music-player:build:development",
+              "serveTarget": "music-player:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
