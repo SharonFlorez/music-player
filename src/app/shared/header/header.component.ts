@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './header.component.html',
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  @Input() public albumImage: string | null = '';
+  @Input() public albumName: string = '';
+}

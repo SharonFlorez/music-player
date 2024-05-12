@@ -1,9 +1,13 @@
-<div class="flex items-center">
+<div class="flex items-center mb-8 gap-4">
+  @if (albumImage) {
+  <img class="w-[12rem] h-[12rem] rounded-lg" [src]="albumImage" alt="album-image">
+  } @else {
   <span class="material-icons-outlined text-gray text-[12rem]">
     image
   </span>
+  }
   <section class="text-white">
     <p class="text-lg">Playlist</p>
-    <h1 class="text-4xl font-bold">TITLE</h1>
+    <h1 class="text-4xl font-bold">{{ albumName }}</h1>
   </section>
 </div>

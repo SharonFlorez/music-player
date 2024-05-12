@@ -1,14 +1,41 @@
-<div class="flex items-center justify-between h-16 rounded-md text-white p-2 hover:bg-[#121212]">
-  <section class="flex gap-2">
-    <span class="material-icons-outlined text-gray text-5xl">
-      image
-    </span>
-    <section>
-      <p>NAME</p>
-      <p>ARTIST</p>
+<p-toast />
+<div>
+  @for (song of allSongs; track $index) {
+  <div class="flex items-center justify-between h-16 rounded-md text-white p-2 cursor-pointer hover:bg-[#121212]">
+    <section class="flex items-center gap-3 basis-1/4" (click)="playSong(song.id)">
+      @if (song.image) {
+      <img class="w-12 h-12 rounded-lg" [ngSrc]="song.image" alt="image"
+        style="position: initial; width: 3rem; height: 3rem;" fill priority>
+      } @else {
+      <span class="material-icons-outlined text-gray text-5xl">
+        image
+      </span>
+      }
+      <section class="uppercase">
+        <p>{{ song.title }}</p>
+        <p>{{ song.artist }}</p>
+      </section>
     </section>
-  </section>
-  <p>ALBUM</p>
-  <p>May 07, 2024</p>
-  <p>3:36</p>
+    <p class="uppercase text-center basis-1/4">{{ song.album }}</p>
+    <p class="uppercase text-end basis-1/4">{{ song.dateRelease }}</p>
+    <section class="flex justify-between basis-1/4">
+      <section class="m-auto text-darkGray">
+        @if (allSongsView) {
+        <span class="material-icons-round" pTooltip="Agregar a Playlist" tooltipPosition="right"
+          (click)="menu.toggle($event); addToPlaylist(song)">
+          add_circle_outline
+        </span>
+        <p-tieredMenu #menu [model]="namesPlaylists" [popup]="true" />
+        } @else {
+        <span class="material-icons-outlined" pTooltip="Eliminar de la Playlist" tooltipPosition="right"
+          (click)="deleteToPlaylist(album.id, song.id)">
+          delete
+        </span>
+        }
+      </section>
+
+      <p class="uppercase text-end basis-1/4">{{ song.time }}</p>
+    </section>
+  </div>
+  }
 </div>

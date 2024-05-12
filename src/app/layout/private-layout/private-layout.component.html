@@ -1,7 +1,9 @@
 <div class="relative">
   <div class="flex bg-black h-screen p-2 overflow-y-auto">
-    <app-side-panel class="basis-[7%]"></app-side-panel>
-    <app-music-display class="basis-[93%]"></app-music-display>
+    <app-side-panel class="w-24 fixed h-full" (playlistSelected)="showPlaylist($event)"
+      (showAllSongs)="showAllSongs($event)"></app-side-panel>
+    <app-music-display class="w-[93%] ml-24" [showPlaylist]="playlistSelected" [showAllSongsList]="showAllSongsList"
+      (songSelected)="playSong($event)"></app-music-display>
   </div>
-  <app-player class="fixed w-full z-20 bottom-0"></app-player>
+  <app-player class="fixed w-full z-20 bottom-0" [playSong]="songSelected"></app-player>
 </div>

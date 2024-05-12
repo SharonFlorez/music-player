@@ -61,7 +61,6 @@ export class LoginComponent implements OnInit {
         this.router.navigate(['/']);
       })
       .catch((error) => {
-        console.log(error.code);
         this.error = ErrorsFirebaseHelper.getError(error.code);
         this.errorLogin = true;
         this.isLoading = false;

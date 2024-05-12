@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Sunset Serenade",
+    "artist": "Misterioso",
+    "time": "4:20",
+    "album": "Mystical Melodies",
+    "dateRelease": "2021-08-15",
+    "image": "https://images.unsplash.com/photo-1605286111427-67133b091012?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2021/09/Oppo-Reno-4.mp3"
+  },
+  {
+    "id": 2,
+    "title": "Dimensional Drift",
+    "artist": "Anónimo",
+    "time": "3:10",
+    "album": "Parallel Realms",
+    "dateRelease": "2021-10-05",
+    "image": "https://images.unsplash.com/photo-1536849249744-44e01e7a089d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2021/09/Rick-and-Morty.mp3"
+  },
+  {
+    "id": 3,
+    "title": "Game of Shadows",
+    "artist": "Desconocido",
+    "time": "2:45",
+    "album": "Shadow Symphony",
+    "dateRelease": "2021-09-20",
+    "image": "https://images.unsplash.com/photo-1558584673-b3f73685d37f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2021/10/Squid-Game-OST.mp3"
+  },
+  {
+    "id": 4,
+    "title": "Midnight Masquerade",
+    "artist": "Phantom",
+    "time": "5:05",
+    "album": "Masked Melodies",
+    "dateRelease": "2021-10-31",
+    "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2021/10/Halloween-2021.mp3"
+  },
+  {
+    "id": 5,
+    "title": "Dreamy Melodies",
+    "artist": "Maestro",
+    "time": "3:55",
+    "album": "Whispers in the Wind",
+    "dateRelease": "2022-04-01",
+    "image": "https://images.unsplash.com/photo-1470305585628-a7d2cb18efa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2022/04/melody-instrumental_1649444427.mp3"
+  },
+  {
+    "id": 6,
+    "title": "Ripple Reflections",
+    "artist": "Mystery",
+    "time": "4:40",
+    "album": "Aqua Symphony",
+    "dateRelease": "2022-04-01",
+    "image": "https://images.unsplash.com/photo-1619983081593-e2ba5b543168?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2022/04/agua-instrumental_1649444426.mp3"
+  },
+  {
+    "id": 7,
+    "title": "Echoes of Sorrow",
+    "artist": "Pianist",
+    "time": "3:25",
+    "album": "Piano Poems",
+    "dateRelease": "2021-10-25",
+    "image": "https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2021/10/tristes-con-piano_1635134764.mp3"
+  },
+  {
+    "id": 8,
+    "title": "Symphony of Tears",
+    "artist": "Violinist",
+    "time": "3:15",
+    "album": "Strings of Sorrow",
+    "dateRelease": "2021-10-25",
+    "image": "https://images.unsplash.com/photo-1554425604-b02b2f5e7f1d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2021/10/violines-tristes_1635134741.mp3"
+  },
+  {
+    "id": 9,
+    "title": "Castle Chronicles",
+    "artist": "Mystic",
+    "time": "4:55",
+    "album": "Medieval Memories",
+    "dateRelease": "2021-10-25",
+    "image": "https://images.unsplash.com/photo-1505672984986-b7c468c7a134?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2021/10/medieval_1635134592.mp3"
+  },
+  {
+    "id": 10,
+    "title": "Ethereal Prelude",
+    "artist": "Nirvana",
+    "time": "0:30",
+    "album": "Nirvana Essentials",
+    "dateRelease": "2021-10-25",
+    "image": "https://images.unsplash.com/photo-1558584609-1301000a9db5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audio": "https://tonosparacelular.net/wp-content/uploads/2021/10/nirvana-intro_1635133019.mp3"
+  }
+]

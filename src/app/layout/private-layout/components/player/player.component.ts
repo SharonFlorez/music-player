@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { SongsInterface } from '../../../../core/interfaces/songs.interface';
 
 @Component({
   selector: 'app-player',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
   imports: [CommonModule],
   templateUrl: './player.component.html',
 })
-export class PlayerComponent {}
+export class PlayerComponent {
+  @Input() public playSong: SongsInterface | null = null;
+}

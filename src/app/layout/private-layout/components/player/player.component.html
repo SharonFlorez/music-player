@@ -1,4 +1,17 @@
-<div class="bg-[#F1F3F4] h-24">
-  <audio class="m-auto w-[70vw] translate-y-1/2" controls
-    src="https://tonosparacelular.net/wp-content/uploads/2021/10/nirvana-intro_1635133019.mp3"></audio>
+<div class="items-center justify-around bg-black h-24 px-8" [ngClass]="!playSong ? 'hidden' : 'flex' ">
+  <section class="flex items-center gap-3 basis-1/4">
+    @if (playSong?.image) {
+    <img class="w-12 h-12 rounded-lg" [src]="playSong?.image" alt="image">
+    } @else {
+    <span class="material-icons-outlined text-gray text-5xl">
+      image
+    </span>
+    }
+    <section class="uppercase text-white">
+      <p>{{ playSong?.title }}</p>
+      <p>{{ playSong?.artist }}</p>
+    </section>
+  </section>
+
+  <audio class="m-auto w-[50vw]" [src]="playSong?.audio" controls autoplay></audio>
 </div>

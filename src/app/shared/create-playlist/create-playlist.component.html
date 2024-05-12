@@ -1,0 +1,16 @@
+<div class="flex flex-col gap-8">
+  <form [formGroup]="playlistForm">
+    <div class="flex flex-column gap-2 mt-2">
+      <label for="name">Nombre</label>
+      <input pInputText id="name" formControlName="name" type="text" class="border border-blue w-full" />
+    </div>
+  </form>
+  <section class="flex gap-12 justify-center">
+    <button
+      class="bg-blue py-2 w-24 text-center rounded-xl text-white font-bold border border-blue hover:bg-white hover:text-blue"
+      (click)="createPlaylist()">Crear</button>
+    <button
+      class="bg-red py-2 w-24 text-center rounded-xl text-white font-bold border border-red hover:bg-white hover:text-red"
+      (click)="cancel()">Cancelar</button>
+  </section>
+</div>
